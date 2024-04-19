@@ -1,0 +1,95 @@
+.chat-sidebar {
+  max-width: 100%;
+  background: #fdfdff;
+  min-height: calc(100vh - 30px);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+.chat-search {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.chat-search button {
+  margin-right: 20px;
+}
+
+.chat-search .MuiTextField-root {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.chat-add-form {
+  width: 460px;
+  background: white;
+  padding: 0px;
+}
+
+.group-card {
+  border: 1px solid lightgray;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.main-chat-window {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 5px;
+  height: calc(100vh - 30px);
+  flex-direction: column;
+  gap: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-title {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chat-content {
+  background: #fdfdff;
+  max-width: 100%;
+  min-width: 70%;
+  padding: 30px 20px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+  overflow: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.chat-bubble {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  width: 40%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  color: #5932ea;
+  background-color: #fdfdff;
+  border: 1px solid #5932ea;
+  box-sizing: border-box;
+}
+
+.chat-bubble.self {
+  align-self: flex-end;
+  background-color: #7879f1;
+  color: white;
+  border: none;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
